@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>www.cpanmol.com</title> </head>
+<body bgcolor="brown">  <font size="6"<font color="pink"> <center> welcome to the my website
+</font><br>
+ 
+<h1> <font color="orange"> ****c programming**** </h1> </font>	
+<br>
+<font size="5"> <font color="green">
+hello i am Anamol . iam computer science student . i built this website to help junior student who are 
+recently joining cs subject .in this website i provide some examples of c programming .which are follows:</font>  <br>
+
+<h2> *c program code to make simple calculator </h2> </center>
+<pre>   #include<stdio.h>
+        int main (){
+	float a,b;
+	int choice;
+	printf("****menu****'\n");
+	printf("1.addition\n");
+	printf("2.subtraction\n");
+	printf("3.multification\n");
+	printf("4.division\n");
+	printf("5.comparision\n");
+
+	printf("enter your choice\n");
+	scanf("%d",&choice);
+	switch(choice)
+	{
+	
+	case 1:
+		printf("enter any two number to add\n");
+		scanf("%f%f",&a,&b);
+		printf("%f+%f=%f",a,b,a+b);
+		break;
+        case 2:
+	printf("enter any two number to subtraction\n");
+	scanf("%f%f",&a,&b);
+	printf("%f-%f=%f",a,b,a-b);
+	break ;
+	case 3 :
+	printf("enter any to number to muntiply\n");
+	scanf("%f%f",&a,&b);
+	printf("%f*%f=%f",a,b,a*b);
+	break ;
+	case 4:
+		printf("enter any to number to divide \n");
+	scanf("%f%f",&a,&b);
+	printf("%f/%f=%f",a,b,a/b);
+	break ;
+	case 5:
+	printf("enter any to number to comparision \n");
+	scanf("%f%f",&a,&b);
+	if(a>b)
+	printf("the greatest number is %f",a);
+	else
+	printf("the greatest number is %f",b);
+	break;
+	default :
+	
+	printf("your choice is incorrect");
+	
+}
+}
+
+</pre> 
+<font size="6"> <font color="red"> copy and run it try yourself	
+</font></p><br>
+<hr color="black"size=7>
+</body>
+</html>	
